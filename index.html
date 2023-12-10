@@ -13,322 +13,496 @@
             margin: 0;
             padding: 0;
             list-style-type: none;
-            box-sizing: border-box;
             text-decoration: none;
         }
-
-        .grid-items-1 {
-            grid-column: 1/2;
-            grid-row: 1/2;
-        }
-
-        .grid-items-2 {
-            grid-row: 2/3;
-            grid-column: 1/2;
-        }
-
-        .grid-items-3 {
-            grid-column: 1/2;
-            grid-row: 1/2;
-        }
-
-        .grid-items-4 {
-            grid-column: 1/2;
-            grid-row: 2/3;
-        }
-
-        @media (min-width:425px) {
-            .grid-items-3 {
-                grid-column: 1/3;
-                grid-row: 1/2;
+        .TableA {
+                width: 45%;
             }
 
-            .grid-items-4 {
-                grid-column: 3/4;
-                grid-row: 1/2;
+            .TableB {
+                width: 55%;
+                padding-left: 12px;
             }
-        }
-
-        @media (min-width: 576px) {
-            .grid-items-1 {
-                grid-column: 1/3;
-                grid-row: 1/2;
+        @media (max-width:643px) {
+            .TableA {
+                display:inline-block;
+                width: 100%;
             }
 
-            .grid-items-2 {
-                grid-row: 1/2;
-                grid-column: 3/6;
+            .TableB {
+                display:inline-block;
+                width: 100%;
+                padding-left: 0;
             }
         }
     </style>
 </head>
 
-<body>
-    <div style="background: #DDDDDD;">
-        <div style="max-width: 650px; margin-left: auto; margin-right: auto;">
-            <!-- nav Heading  -->
-            <div
-                style="background: black url(https://i.ibb.co/M1GnL2F/email-Tamplate1st-Image.png) no-repeat center; min-height: 75px;">
-            </div>
-            <!-- title section1 -->
-            <div
-                style="background: white url(https://i.ibb.co/3h4K9Nd/CrclBG.png) no-repeat center ; background-size: cover; min-height: 400px; margin-left: auto; margin-right: auto;">
-                <p
-                    style="color: black; font-family: roboto; font-size: 18px; font-weight: 400; line-height: 24px; text-align: center; margin: 0; padding-top: 13px; border-bottom: 1.5px solid #BBC036; width: 50%; margin-left: auto; margin-right: auto; padding-top: 40px;">
-                    You’ve been <span style="font-weight: 600;">invited</span> <span
-                        style="color: #040404; font-weight: 600">to Werc</span> by:</p>
-                <div
-                    style="max-width: 137px; min-height: 153px; margin-left: auto; margin-right: auto; margin-top: 50px;">
-                    <img style="margin-left: 25%;" src="https://i.ibb.co/4jjjkW2/copper1.png" alt="Copper">
-                    <h2
-                        style="color: black; font-size: 20px; font-weight: 600; font-family: roboto; line-height: 32px; text-align: center;">
-                        Isaiah Pegues</h2>
-                    <p
-                        style="font-size: 16px; font-weight: 500 ; color: #4D4D4D; line-height: 25px; font-family: roboto; text-align: center;">
-                        Photographer</p>
-                    <p
-                        style="font-size: 14px; font-weight: 500 ; color: #4D4D4D; line-height: 25px; font-family: roboto; text-align: center;">
-                        19th & Park Inc.</p>
-                </div>
-                <p
-                    style="font-size: 32px; font-weight: 300; font-family: raleway; color: #040404; text-align: center; margin-top: 42px; max-width: 580px; border-bottom: 1.5px solid #BBC036; padding-bottom: 10px; width: 94%; margin-left: auto; margin-right: auto;">
-                    A platform <span style="font-weight: 700;"> for creatives, crew, and production.</span></p>
-                <p
-                    style="font-size: 16px; font-weight: 400; font-family: roboto; color: #121212; text-align: center; margin-top: 24px; max-width: 345px; margin-left: auto; margin-right: auto; padding-bottom: 24px;">
-                    Tahira has your contact saved to her contact list. To edit or update your information, signup below
-                </p>
-            </div>
-            <!-- contact card  -->
-            <div style="background: #FAFAF7;">
-                <div style="padding: 32px 24px;">
-                    <div style="max-width: 126px; min-height: 153px; margin-left: auto; margin-right: auto;">
-                        <img style="margin-left: 25%;" src="https://i.ibb.co/XxjwqBT/copper2.png" alt="Copper">
-                        <h2
-                            style="color: black; font-size: 20px; font-weight: 600; font-family: roboto; line-height: 32px; text-align: center; ">
-                            Jane Cooper</h2>
-                        <p
-                            style="font-size: 16px; font-weight: 500 ; color: #4D4D4D; line-height: 25px; font-family: roboto; text-align: center;">
-                            Cameraman</p>
-                        <p
-                            style="font-size: 14px; font-weight: 500 ; color: #4D4D4D; line-height: 25px; font-family: roboto; text-align: center;">
-                            Netflix</p>
-                        <p
-                            style="font-size: 14px; font-weight: 400 ; color: #808080; line-height: 22px; font-family: roboto; text-align: center;">
-                            (327) 999-888</p>
+<body style="background: #DDDDDD;">
+    <!-- nav section start  -->
+    <table style="width: 100%; max-width: 650px; margin: 0 auto;" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr style="width: 100%;">
+                <td>
+                    <div
+                        style="background: black url(https://i.ibb.co/M1GnL2F/email-Tamplate1st-Image.png) no-repeat center; min-height: 75px;">
                     </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- nav section end    -->
+
+    <!-- invited section start  -->
+    <table style="width: 100%; max-width: 650px; margin: 0 auto; background: white url(https://i.ibb.co/3h4K9Nd/CrclBG.png) no-repeat center ; background-size: cover; min-height: 400px;"
+        cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td>
+                    <h1
+                        style="color: black; font-family: roboto; font-size: 18px; font-weight: 400; line-height: 24px; text-align: center; margin: 0; padding-top: 13px; border-bottom: 1.5px solid #BBC036; width: 50%; margin: 0 auto; padding-top: 40px;">
+                        You’ve been <span style="font-weight: 600;">invited</span> <span
+                            style="color: #040404; font-weight: 600">to Werc</span> by:</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="max-width: 137px; min-height: 153px; margin: 0 auto; margin-top: 50px;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img style="margin-left: 25%;" src="https://i.ibb.co/4jjjkW2/copper1.png"
+                                        alt="Copper">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h2
+                                        style="color: black; font-size: 20px; font-weight: 600; font-family: roboto; line-height: 32px; text-align: center;">
+                                        Isaiah Pegues</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p
+                                        style="font-size: 16px; font-weight: 500 ; color: #4D4D4D; line-height: 25px; font-family: roboto; text-align: center;">
+                                        Photographer</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p
+                                        style="font-size: 14px; font-weight: 500 ; color: #4D4D4D; line-height: 25px; font-family: roboto; text-align: center;">
+                                        19th & Park Inc.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="margin: 0 auto;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p
+                                        style="font-size: 32px; font-weight: 300; font-family: raleway; color: #040404; text-align: center;  max-width: 580px; border-bottom: 1.5px solid #BBC036; padding: 40px 0 10px; width: 94%; margin: 0 auto;">
+                                        A platform <span style="font-weight: 700;"> for creatives, crew, and
+                                            production.</span></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p
+                                        style="font-size: 16px; font-weight: 400; font-family: roboto; color: #121212; text-align: center; padding-top: 24px; max-width: 345px; margin: 0 auto; padding-bottom: 24px;">
+                                        Tahira has your contact saved to her contact list. To edit or update your
+                                        information, signup
+                                        below </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- invided section end  -->
+
+    <!-- contact card section start  -->
+    <table style="width: 100%; max-width: 650px; margin: 0 auto; background: #FAFAF7; padding: 32px 24px;"
+        cellpadding="0" cellspacing="0" border="0">
+        <tbody style="padding: 32px 24px;">
+            <tr>
+                <td>
+                    <table style="max-width: 137px; min-height: 153px; margin: 0 auto; margin-top: 50px;">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img style="margin-left: 25%;" src="https://i.ibb.co/XxjwqBT/copper2.png"
+                                        alt="Copper">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h2
+                                        style="color: black; font-size: 20px; font-weight: 600; font-family: roboto; line-height: 32px; text-align: center; ">
+                                        Jane Cooper</h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p
+                                        style="font-size: 16px; font-weight: 500 ; color: #4D4D4D; line-height: 25px; font-family: roboto; text-align: center;">
+                                        Cameraman</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p
+                                        style="font-size: 14px; font-weight: 500 ; color: #4D4D4D; line-height: 25px; font-family: roboto; text-align: center;">
+                                        Netflix</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p
+                                        style="font-size: 14px; font-weight: 400 ; color: #808080; line-height: 22px; font-family: roboto; text-align: center;">
+                                        (327) 999-888</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <button
                         style="color: #040404; font-size: 16px; font-weight: 700; font-family: roboto; text-transform: uppercase; text-align: center;  background: #DCE161; border: none; border-radius: 12px; padding: 18px 18px; width: 100%; margin-top: 24px;">Sign
                         up to edit your contact</button>
-                </div>
-            </div>
-            <div style="background-color: #FAFAF7;max-width: 650px; margin-left: auto; margin-right: auto;">
-                <div
-                    style="max-width: 602px; padding-left: 12px;padding-right: 12px;margin-left: auto; margin-right: auto;padding-bottom: 37px;">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- contact card section end  -->
+
+    <!-- project section start  -->
+    <table style="width: 100%; max-width: 650px; margin: 0 auto; background: #FFFFFF; padding: 13px 20px 20px;"
+        cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td>
                     <h2
-                        style="color: #040404;margin-top: 0;margin-bottom: 0;padding-top: 12px;padding-bottom: 24px;font-family: Roboto;font-size: 32px;font-style: normal;font-weight: 700;line-height: normal;">
+                        style="color: #040404;padding-top: 12px;padding-bottom: 24px;font-family: Roboto;font-size: 32px;font-style: normal;font-weight: 700;line-height: normal;">
                         Projects you worked on with Isaiah</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <p
-                        style="color: #121212;font-family: Roboto;margin-top: 0;margin-bottom: 0;font-size: 16px;font-style: normal;font-weight: 400;line-height: 160%;">
+                        style="color: #121212;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;line-height: 160%; margin-bottom: 24px;">
                         Any projects you've worked on with peeps who have joined Werc are already on your profile. Just
                         log in, and you'll see them pop up on your page instantly.</p>
-                    <div
-                        style="display: grid;grid-template-columns: auto;grid-template-rows: auto;gap: 18px; padding-top: 24px;">
-                        <div style="background: #F2F2F2;padding: 9px 12px 23px 17px;" class="grid-items-1">
-                            <p
-                                style="color: #000;margin-top: 0;margin-bottom: 0;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal; padding-bottom: 8px;border-bottom: 1px solid black; width:20%;">
-                                Client</p>
-                            <p
-                                style="color: #000;font-family: Roboto;margin-top: 0;margin-bottom: 0;padding-top: 24px;font-size: 16px;font-style: normal;font-weight: 700;line-height: normal;text-transform: uppercase; padding-bottom: 24px;">
-                                PUMA</p>
-                            <table>
-                                <tr>
-                                    <th>
-                                        <button
-                                            style="color: #FDFDFD;font-family: Roboto;font-size: 12px;font-style: normal;font-weight: 600;line-height: normal;text-transform: capitalize;background-color: #000;padding: 10px 16px; border-radius: 58px;border: 1px solid transparent; margin-bottom: 20px;">April-2020</button>
-                                    </th>
-                                    <th>
-                                        <button
-                                            style="color: #FDFDFD;margin-bottom: 20px;font-family: Roboto;font-size: 12px;font-style: normal;font-weight: 600;line-height: normal;text-transform: capitalize;background-color: #000;padding: 10px 16px; border-radius: 58px;border: 1px solid transparent;">Fashion
-                                            Show</button>
-                                    </th>
-                                </tr>
-                            </table>
-                            <div style="max-width:160px">
-                                <p
-                                    style="color: #000;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;border-bottom: 1.5px solid black; margin: 0; padding-bottom: 4px; padding-top:48px;">
-                                    Production Company</p>
-                            </div>
-                            <p
-                                style="color: #040404;font-family: Roboto;font-size: 20px;font-style: normal;font-weight: 600;line-height: normal;text-transform:uppercase; margin: 0; padding-top: 12px;">
-                                ABSTERGO</p>
-                        </div>
-                        <div style="background-color: #000;padding: 19px 10px 44px 17px; " class="grid-items-2">
-                            <h2
-                                style="color: #FDFDFD;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;">
-                                Your Colleagues in the</h2>
-                            <div style="max-width: 200px;">
-                                <h2
-                                    style="color: #DCE161;font-family: Roboto;font-size: 20px;font-style: italic;font-weight: 500;line-height: 150%; border-top: 1px solid #DCE161;">
-                                    Camera Department</h2>
-                            </div>
-                            <div
-                                style="display: grid;padding-top: 12px;grid-template-columns: auto;grid-template-rows: auto;gap:20px;">
-                                <div class="grid-items-3">
-                                    <p
-                                        style="  color: #FDFDFD;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;margin-top: 0;margin-bottom: 0;line-height: 150%;">
-                                        Tahira White</p>
-                                    <p
-                                        style="color: rgba(253, 253, 253, 0.70);font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;margin-top: 0;margin-bottom: 0;padding-top: 12px;line-height: 150%;">
-                                        Director of Photography</p>
-                                    <p
-                                        style="  color: #FDFDFD; padding-top: 24px;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;margin-top: 0;margin-bottom: 0;line-height: 150%;">
-                                        Whitney Headen</p>
-                                    <p
-                                        style="color: rgba(253, 253, 253, 0.70);font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;margin-top: 0;margin-bottom: 0;padding-top: 12px;line-height: 150%;">
-                                        Camera Operator</p>
-                                </div>
-                                <div class="grid-items-4">
-                                    <p
-                                        style="  color: #FDFDFD; margin-top: 0;margin-bottom: 0;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: 150%;">
-                                        Brittney Smith
-                                    </p>
-                                    <p
-                                        style="color: rgba(253, 253, 253, 0.70);font-family: Roboto;margin-top: 0;margin-bottom: 0;padding-top: 12px;font-size: 16px;font-style: normal;font-weight: 400;line-height: 150%;">
-                                        VTR Operator</p>
-                                    <p
-                                        style="  color: #FDFDFD; padding-top: 24px;margin-top: 0;margin-bottom: 0;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: 150%;">
-                                        James Linden
-                                    </p>
-                                    <p
-                                        style="color: rgba(253, 253, 253, 0.70);font-family: Roboto;margin-top: 0;margin-bottom: 0;padding-top: 12px;font-size: 16px;font-style: normal;font-weight: 400;line-height: 150%;">
-                                        Steady Camera Operator</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div
-                style="background-image: url(https://thumbs2.imgbox.com/bd/90/HPKkWWco_t.png);background-repeat: no-repeat; background-position: center;background-size: cover;">
-                <div
-                    style="max-width: 602px; padding-left: 12px; padding-right: 12px;margin-left: auto; margin-right: auto;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="TableA">
+                                    <table style="background: #F2F2F2;padding: 27px 12px 23px 17px; width: 100%;"
+                                        cellpadding="0" cellspacing="0" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p
+                                                        style="color: #000;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal; padding-bottom: 8px;border-bottom: 1.5px solid black; width:50px;">
+                                                        Client</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p
+                                                        style="color: #000;font-family: Roboto;padding-top: 24px;font-size: 16px;font-style: normal;font-weight: 700;line-height: normal;text-transform: uppercase; padding-bottom: 24px;">
+                                                        PUMA</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <button
+                                                        style="color: #FDFDFD;font-family: Roboto;font-size: 12px;font-style: normal;font-weight: 600;line-height: normal;background-color: #000;padding: 10px 16px; border-radius: 58px;border: 1px solid transparent; margin-bottom: 20px;">April-2020</button>
+                                                    <button
+                                                            style="color: #FDFDFD; margin-left: 10px;font-family: Roboto;font-size: 12px;font-style: normal;font-weight: 600;line-height: normal;background-color: #000;padding: 10px 16px; border-radius: 58px;border: 1px solid transparent;">Fashion
+                                                            Show</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p
+                                                        style="color: #000;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;border-bottom: 1.5px solid black; margin: 0; padding-bottom: 4px; padding-top:48px; width: 159px;">
+                                                        Production Company</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p
+                                                        style="color: #040404;font-family: Roboto;font-size: 20px;font-style: normal;font-weight: 600;line-height: normal;text-transform:uppercase; margin: 0; padding-top: 12px;">
+                                                        ABSTERGO</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td class="TableB">
+                                    <table
+                                        style="background: #040404;padding: 29px 12px 32px 17px; width: 100%;"
+                                        cellpadding="0" cellspacing="0" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <h2
+                                                        style="color: #FDFDFD;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: normal;padding-bottom: 5px; border-bottom: 1.5px solid #DCE161; width: 171px;">
+                                                        Your Colleagues in the</h2>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <h2
+                                                        style="color: #DCE161;font-family: Roboto;font-size: 20px;font-style: italic;font-weight: 500;line-height: 150%; padding-top: 5px;">
+                                                        Camera Department</h2>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table style="margin-top: 40px;" cellpadding="0" cellspacing="0"
+                                                        border="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="margin-right: 12px; width: 60%; vertical-align: baseline;">
+                                                                    <p
+                                                                        style="color: #FDFDFD;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: 150%;">
+                                                                        Tahira White</p>
+                                                                </td>
+                                                                <td style="margin-left: 10px; vertical-align: baseline;">
+                                                                    <p
+                                                                        style="color: #FDFDFD; font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: 150%;">
+                                                                        Brittney Smith
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="margin-right: 12px; width: 64%; vertical-align: baseline;">
+                                                                    <p
+                                                                        style="color: rgba(253, 253, 253, 0.70);font-family: Roboto;font-size: 14px;font-style: normal;font-weight: 400;padding-top: 4px;line-height: 150%; margin-right: 12px;">
+                                                                        Director of Photography</p>
+                                                                </td>
+                                                                <td style="margin-left: 12px; vertical-align: baseline;">
+                                                                    <p
+                                                                        style="color: rgba(253, 253, 253, 0.70);font-family: Roboto;padding-top: 4px;font-size: 14px;font-style: normal;font-weight: 400;line-height: 150%;">
+                                                                        VTR Operator</p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="margin-right: 12px; width: 60%; vertical-align: baseline;">
+                                                                    <p
+                                                                        style="  color: #FDFDFD; padding-top: 24px;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: 150%;">
+                                                                        Whitney Headen</p>
+                                                                </td>
+                                                                <td style="margin-left: 10px; vertical-align: baseline;">
+                                                                    <p
+                                                                        style="  color: #FDFDFD; padding-top: 24px;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 500;line-height: 150%;">
+                                                                        James Linden
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td
+                                                                    style="margin-right: 12px; width: 64%; vertical-align: baseline;">
+                                                                    <p
+                                                                        style="color: rgba(253, 253, 253, 0.70);font-family: Roboto;font-size: 14px;font-style: normal;font-weight: 400;padding-top: 12px;line-height: 150%;">
+                                                                        Camera Operator</p>
+                                                                </td>
+                                                                <td style="margin-left: 12px;">
+                                                                    <p
+                                                                        style="color: rgba(253, 253, 253, 0.70);font-family: Roboto;padding-top: 12px;font-size: 14px;font-style: normal;font-weight: 400;line-height: 150%;">
+                                                                        Steady Camera Operator</p>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- project section end  -->
+
+    <!-- Imagination with Werc section start -->
+    <table style="width: 100%; max-width: 650px; margin: 0 auto;  background: #040404 url(https://thumbs2.imgbox.com/bd/90/HPKkWWco_t.png) no-repeat center content-box; "
+        cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td>
                     <h2
-                        style="color: #FDFDFD;text-align: center;margin-bottom: 0;margin-top: 0;padding-top: 48px;font-family: Roboto;font-size: 32px;max-width: 393px; margin-left: auto;margin-right: auto;font-style: normal;font-weight: 300;padding-bottom: 12px;border-bottom:1px solid #F5FF00 ;line-height: normal;">
+                        style="color: #FDFDFD;text-align: center; padding: 48px 8px;font-family: Roboto;font-size: 32px;max-width: 393px; margin-left: auto;margin-right: auto;font-style: normal;font-weight: 300;padding-bottom: 12px;border-bottom:1px solid #F5FF00 ;line-height: normal;">
                         Fuel Your Imagination with Werc - <span
                             style="color: #FDFDFD;text-align: center;font-family: Roboto;font-size: 32px;font-style: normal;font-weight: 700;line-height: normal;">For
                             Free</span></h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     <p
-                        style="color: #B2B2B2;text-align: center;font-family: Roboto;font-size: 16px;padding-top: 21px;padding-bottom: 17px;margin-top: 0;margin-bottom: 0;font-style: normal;font-weight: 400;line-height: 150%;max-width: 476px ; margin-right: auto;margin-left: auto;">
+                        style="color: #B2B2B2;text-align: center;font-family: Roboto;font-size: 16px;padding:21px 8px 17px ;font-style: normal;font-weight: 400;line-height: 150%;max-width: 476px ; margin: 0 auto;">
                         Join Werc today and elevate your creative journey. With a free Werc account you’ll enjoy.</p>
-                    <div style=" margin-left: auto; margin-right: auto; max-width: 476px; padding-bottom: 28px;"><img
-                            style="width: 100%;" src="https://img.mailinblue.com/5541071/images/content_library/original/6535f894dec353599e79e98e.gif" alt="img"></div>
-                </div>
-            </div>
-            <!-- benefit section  -->
-            <div style="padding: 32px 24px; background: white;">
-                <p
-                    style="color: #040404;text-align: center;font-family: Roboto;font-size: 36px;font-style: normal;font-weight: 700;line-height: normal; margin-bottom: 20px;">
-                    BENEFITS</p>
-                <table>
-                    <tr>
-                        <td style="vertical-align: baseline;"><img src="https://i.ibb.co/h9BwY07/click.png" alt="click">
-                        </td>
-                        <td style="padding-left: 12px;">
-                            <p
-                                style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 700;line-height:24px;">
-                                Instant Verification</p>
-                            <p
-                                style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;line-height:24px; margin-top: 5px;">
-                                Gain credibility in your industry by showcasing verified jobs.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: baseline; padding-top: 20px;"><img
-                                src="https://i.ibb.co/h9BwY07/click.png" alt="click"></td>
-                        <td style="padding-left: 12px; padding-top: 20px;">
-                            <p
-                                style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 700;line-height:24px;">
-                                Build Your Portfolio</p>
-                            <p
-                                style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;line-height:24px; margin-top: 5px;">
-                                Create a stunning portfolio to showcase your work</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: baseline; padding-top: 20px;"><img
-                                src="https://i.ibb.co/h9BwY07/click.png" alt="click"></td>
-                        <td style="padding-left: 12px; padding-top: 20px;">
-                            <p
-                                style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 700;line-height:24px;">
-                                Access to Top Talent</p>
-                            <p
-                                style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;line-height:24px; margin-top: 5px;">
-                                Connect with a network of talented professionals.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: baseline; padding-top: 20px;"><img
-                                src="https://i.ibb.co/h9BwY07/click.png" alt="click"></td>
-                        <td style="padding-left: 12px; padding-top: 20px;">
-                            <p
-                                style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 700;line-height:24px;">
-                                Effortless Contact Management</p>
-                            <p
-                                style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;line-height:24px; margin-top: 5px;">
-                                Maintain an organised contact list.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="vertical-align: baseline; padding-top: 20px;"><img
-                                src="https://i.ibb.co/h9BwY07/click.png" alt="click"></td>
-                        <td style="padding-left: 12px; padding-top: 20px;">
-                            <p
-                                style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 700;line-height:24px;">
-                                Stay In the Loop</p>
-                            <p
-                                style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;line-height:24px; margin-top: 5px;">
-                                Receive daily digest emails for easy verification requests.</p>
-                        </td>
-                    </tr>
-                </table>
-                <button
-                    style="color: #040404; font-size: 16px; font-weight: 700; font-family: roboto; text-transform: uppercase; text-align: center;  background: #DCE161; border: none; border-radius: 12px; padding: 18px 18px; width: 100%; margin-top: 32px; margin-bottom: 40px;">Sign
-                    up INSTANTLY</button>
-            </div>
-        </div>
-        <!-- footer  -->
-        <div style="margin-left: auto; margin-right: auto; max-width: 316px;">
-            <p
-                style="font-size: 14px; font-weight: 400; font-family: roboto ; text-align: center; color: #4A4A4A; margin-top: 43px;">
-                Privacy Policy | Terms & Conditions | Legal</p>
-            <table style="margin-left: auto; margin-right: auto; margin-top: 15px;  margin-bottom: 15px;">
-                <tr>
-                    <td style="text-align: center;">
-                        <a style="margin-right: 18px;" href="http://facebook.com" target="_blank"><img
-                                src="https://i.ibb.co/gSZqh8j/facebook.png" alt="facebook"></a>
-                        <a style="margin-right: 18px;" href="http://twitter.com" target="_blank"><img
-                                src="https://i.ibb.co/9nVLJnV/twiter.png" alt="twiter"></a>
-                        <a style="margin-right: 18px;" href="http://youtube.com" target="_blank"><img
-                                src="https://i.ibb.co/Lz3VXp9/youtube.png" alt="youtube"></a>
-                        <a href="http://instagram.com" target="_blank"><img src="https://i.ibb.co/SrLjbLT/instagram.png"
-                                alt="instagram"></a>
-                    </td>
-                </tr>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center; max-width: 476px; padding: 0 12px 28px;">
+                    <img style="width: 100%; max-width: 476px; margin: 0 auto; max-height: 268px; object-fit: cover;"
+                        src="https://img.mailinblue.com/5541071/images/content_library/original/6535f894dec353599e79e98e.gif"
+                        alt="img">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Imagination with Werc section end -->
 
-            </table>
-        </div>
-        <table style="width: 100%;">
-            <tbody>
-                <tr>
-                    <td align="center" style="width: 100%; text-align: center;">
-                        <p
-                            style="color: #767676; font-size: 14px ; font-weight: 500; font-family: raleway; line-height: 20px; text-align: center; padding-bottom: 40px; width: 100%;">
-                            © <span style="font-family: roboto;">2023 werc</span></p>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <!-- benefit section start -->
+    <table style="width: 100%; max-width: 650px; margin: 0 auto; background: #FFFFFF; padding: 13px 24px;"
+        cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td>
+                    <p
+                        style="color: #040404;text-align: center;font-family: Roboto;font-size: 36px;font-style: normal;font-weight: 700;line-height: normal; margin-bottom: 20px;">
+                        BENEFITS</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td style="vertical-align: baseline;"><img src="https://i.ibb.co/h9BwY07/click.png"
+                                    alt="click">
+                            </td>
+                            <td style="padding-left: 12px;">
+                                <p
+                                    style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 700;line-height:24px;">
+                                    Instant Verification</p>
+                                <p
+                                    style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;line-height:24px; margin-top: 5px;">
+                                    Gain credibility in your industry by showcasing verified jobs.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: baseline; padding-top: 20px;"><img
+                                    src="https://i.ibb.co/h9BwY07/click.png" alt="click"></td>
+                            <td style="padding-left: 12px; padding-top: 20px;">
+                                <p
+                                    style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 700;line-height:24px;">
+                                    Build Your Portfolio</p>
+                                <p
+                                    style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;line-height:24px; margin-top: 5px;">
+                                    Create a stunning portfolio to showcase your work</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: baseline; padding-top: 20px;"><img
+                                    src="https://i.ibb.co/h9BwY07/click.png" alt="click"></td>
+                            <td style="padding-left: 12px; padding-top: 20px;">
+                                <p
+                                    style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 700;line-height:24px;">
+                                    Access to Top Talent</p>
+                                <p
+                                    style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;line-height:24px; margin-top: 5px;">
+                                    Connect with a network of talented professionals.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: baseline; padding-top: 20px;"><img
+                                    src="https://i.ibb.co/h9BwY07/click.png" alt="click"></td>
+                            <td style="padding-left: 12px; padding-top: 20px;">
+                                <p
+                                    style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 700;line-height:24px;">
+                                    Effortless Contact Management</p>
+                                <p
+                                    style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;line-height:24px; margin-top: 5px;">
+                                    Maintain an organised contact list.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: baseline; padding-top: 20px;"><img
+                                    src="https://i.ibb.co/h9BwY07/click.png" alt="click"></td>
+                            <td style="padding-left: 12px; padding-top: 20px;">
+                                <p
+                                    style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 700;line-height:24px;">
+                                    Stay In the Loop</p>
+                                <p
+                                    style="color:#040404;font-family: Roboto;font-size: 16px;font-style: normal;font-weight: 400;line-height:24px; margin-top: 5px;">
+                                    Receive daily digest emails for easy verification requests.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button
+                        style="color: #040404; font-size: 16px; font-weight: 700; font-family: roboto; text-transform: uppercase; text-align: center;  background: #DCE161; border: none; border-radius: 12px; padding: 18px 18px; width: 100%; margin-top: 32px; margin-bottom: 40px;">Sign
+                        up INSTANTLY</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- benefit section end -->
+
+    <!-- footer start -->
+    <table style="margin: 0 auto; max-width: 316px;" cellpadding="0" cellspacing="0" border="0">
+        <tbody>
+            <tr>
+                <td>
+                    <p
+                        style="font-size: 14px; font-weight: 400; font-family: roboto ; text-align: center; color: #4A4A4A; margin-top: 43px;">
+                        Privacy Policy | Terms & Conditions | Legal</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="margin: 0 auto; margin-top: 15px;  margin-bottom: 15px;">
+                        <tr>
+                            <td style="text-align: center;">
+                                <a style="margin-right: 18px;" href="http://facebook.com" target="_blank"><img
+                                        src="https://i.ibb.co/gSZqh8j/facebook.png" alt="facebook"></a>
+                                <a style="margin-right: 18px;" href="http://twitter.com" target="_blank"><img
+                                        src="https://i.ibb.co/9nVLJnV/twiter.png" alt="twiter"></a>
+                                <a style="margin-right: 18px;" href="http://youtube.com" target="_blank"><img
+                                        src="https://i.ibb.co/Lz3VXp9/youtube.png" alt="youtube"></a>
+                                <a href="http://instagram.com" target="_blank"><img
+                                        src="https://i.ibb.co/SrLjbLT/instagram.png" alt="instagram"></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" style="width: 100%; text-align: center;">
+                    <p
+                        style="color: #767676; font-size: 14px ; font-weight: 500; font-family: raleway; line-height: 20px; text-align: center; padding-bottom: 40px; width: 100%;">
+                        © <span style="font-family: roboto;">2023 werc</span></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- footer end -->
 </body>
 
 </html>
