@@ -14,13 +14,29 @@
             text-decoration: none;
             font-family: 'Roboto', sans-serif;
         }
+        .projectCard{
+            padding: 13px 20px 20px;
+        }
+        .benefitCard{
+            padding: 20px 24px;
+        }
+        .IsaiahCard{
+            padding-top: 50px;
+        }
+        .IsaiahPara{
+            padding: 40px 0 10px;
+            
+        }
+        .text-4xl{
+            font-size: 32px;
+        }
         .TableA {
                 width: 45%;
             }
 
             .TableB {
                 width: 55%;
-                padding-left: 12px;
+                padding-left: 18px;
             }
         @media (max-width:643px) {
             .TableA {
@@ -32,7 +48,29 @@
                 display:inline-block;
                 width: 100%;
                 padding-left: 0;
+                margin-top: 18px;
+
             }
+            .text-align-center{
+                text-align: center;
+            }
+        }
+        @media (max-width:500px) {
+            .projectCard{
+                padding: 13px 10px 20px;
+            }
+            .benefitCard{
+            padding: 10px 12px;
+        }
+        .IsaiahCard{
+            padding-top: 30px;
+        }
+        .IsaiahPara{
+            padding: 30px 0 10px;
+        }
+        .text-4xl{
+            font-size: 26px;
+        }
         }
     </style>
 </head>
@@ -43,7 +81,7 @@
         <tbody>
             <tr style="width: 100%;">
                 <td style="background: #000; text-align: center;">
-                    <a href="http://"><img style="padding-top: 20px; padding-bottom: 20px;" src="https://i.ibb.co/M1GnL2F/email-Tamplate1st-Image.png" alt="werc"></a>
+                    <a style="display: inline-block;" href="http://"><img style="padding-top: 20px; padding-bottom: 18px;" src="https://i.ibb.co/M1GnL2F/email-Tamplate1st-Image.png" alt="werc"></a>
                 </td>
             </tr>
         </tbody>
@@ -64,7 +102,7 @@
             </tr>
             <tr>
                 <td>
-                    <table style="max-width: 137px; min-height: 153px; margin: 0 auto; margin-top: 50px;">
+                    <table class="IsaiahCard" style="max-width: 137px; min-height: 153px; margin: 0 auto;" cellpadding="0" cellspacing="0" border="0">
                         <tbody>
                             <tr>
                                 <td>
@@ -99,12 +137,12 @@
             </tr>
             <tr>
                 <td>
-                    <table style="margin: 0 auto;">
+                    <table  style="margin: 0 auto;">
                         <tbody>
                             <tr>
                                 <td>
-                                    <p
-                                        style="font-size: 32px; font-weight: 300;  color: #040404; text-align: center;  max-width: 580px; border-bottom: 1.5px solid #BBC036; padding: 40px 0 10px; width: 94%; margin: 0 auto;">
+                                    <p class="IsaiahPara text-4xl"
+                                        style=" font-weight: 300;  color: #040404; text-align: center;  max-width: 580px; border-bottom: 1.5px solid #BBC036; width: 94%; margin: 0 auto;">
                                         A platform <span style="font-weight: 700;"> for creatives, crew, and
                                             production.</span></p>
                                 </td>
@@ -112,7 +150,7 @@
                             <tr>
                                 <td>
                                     <p
-                                        style="font-size: 16px; font-weight: 400;  color: #121212; text-align: center; padding-top: 24px; max-width: 345px; margin: 0 auto; padding-bottom: 24px;">
+                                        style="font-size: 16px; font-weight: 400;  color: #121212; text-align: center; max-width: 345px; margin: 0 auto; padding: 24px 10px 24px 10px;">
                                         Tahira has your contact saved to her contact list. To edit or update your
                                         information, signup
                                         below </p>
@@ -132,7 +170,7 @@
         <tbody>
             <tr>
                 <td>
-                    <table style="max-width: 137px; min-height: 153px; margin: 0 auto; margin-top: 50px;">
+                    <table style="max-width: 137px; min-height: 153px; margin: 0 auto;">
                         <tbody>
                             <tr>
                                 <td>
@@ -163,9 +201,9 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <p
-                                        style="font-size: 14px; font-weight: 400 ; color: #808080; line-height: 22px;  text-align: center;">
-                                        (327) 999-888</p>
+                                    <a
+                                        style="font-size: 14px; font-weight: 400 ; color: #808080; line-height: 22px;  text-align: center; display: inline-block; text-align: center; width: 100%;" href="tel:+">
+                                        (327) 999-888</a>
                                 </td>
                             </tr>
                         </tbody>
@@ -184,20 +222,20 @@
     <!-- contact card section end  -->
 
     <!-- project section start  -->
-    <table style="width: 100%; max-width: 650px; margin: 0 auto; background: #FFFFFF; padding: 13px 20px 20px;"
+    <table class="projectCard" style="width: 100%; max-width: 650px; margin: 0 auto; background: #FFFFFF;"
         cellpadding="0" cellspacing="0" border="0">
         <tbody>
             <tr>
                 <td>
-                    <h2
-                        style="color: #040404;padding-top: 12px;padding-bottom: 24px;font-size: 32px;font-style: normal;font-weight: 700;line-height: normal;">
+                    <h2 class="text-align-center text-4xl"
+                        style="color: #040404;padding-top: 12px;padding-bottom: 24px;font-style: normal;font-weight: 700;line-height: normal;">
                         Projects you worked on with Isaiah</h2>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <p
-                        style="color: #121212;font-size: 16px;font-style: normal;font-weight: 400;line-height: 160%; margin-bottom: 24px;">
+                    <p class="text-align-center"
+                        style="color: #5A5A5A;font-size: 16px;font-style: normal;font-weight: 400;line-height: 160%; margin-bottom: 24px;">
                         Any projects you've worked on with peeps who have joined Werc are already on your profile. Just
                         log in, and you'll see them pop up on your page instantly.</p>
                 </td>
@@ -208,7 +246,7 @@
                         <tbody>
                             <tr>
                                 <td class="TableA">
-                                    <table style="background: #F2F2F2;padding: 27px 12px 23px 17px; width: 100%;"
+                                    <table style="background: #F2F2F2;padding: 27px 12px 23px 17px; width: 100%; "
                                         cellpadding="0" cellspacing="0" border="0">
                                         <tbody>
                                             <tr>
@@ -374,7 +412,7 @@
     <!-- Imagination with Werc section end -->
 
     <!-- benefit section start -->
-    <table style="width: 100%; max-width: 650px; margin: 0 auto; background: #FFFFFF; padding: 20px 24px;"
+    <table class="benefitCard" style="width: 100%; max-width: 650px; margin: 0 auto; background: #FFFFFF;"
         cellpadding="0" cellspacing="0" border="0">
         <tbody>
             <tr>
@@ -504,7 +542,7 @@
                 <td align="center" style="width: 100%; text-align: center;">
                     <p
                         style="color: #767676; font-size: 14px ; font-weight: 500;  line-height: 20px; text-align: center; padding-bottom: 40px; width: 100%;">
-                        © <span 2023 werc</span></p>
+                        © <span> 2023 werc</span></p>
                 </td>
             </tr>
         </tbody>
